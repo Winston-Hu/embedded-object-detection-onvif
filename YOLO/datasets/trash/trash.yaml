@@ -1,0 +1,104 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: D:/github_repos/embedded-object-detection-onvif/YOLO/datasets/trash # dataset root dir
+train: D:/github_repos/embedded-object-detection-onvif/YOLO/datasets/trash/images/train # train images (relative to 'path') 128 images
+val: D:/github_repos/embedded-object-detection-onvif/YOLO/datasets/trash/images/val # val images (relative to 'path') 128 images
+test: # test images (optional)
+
+nc: 96
+names:
+  0: Cans
+  1: Card_board
+  2: Face_Mask
+  3: Glass_Bottles
+  4: Paper_Bag
+  5: Paper_Cup
+  6: Paper_board
+  7: Peel
+  8: Pile_of_Leaves
+  9: Plastic_Bag
+  10: Plastic_Bottle
+  11: Plastic_Cup
+  12: Plastic_Wrapper
+  13: Rags
+  14: Styrofoam
+  15: Tetra_Pack
+  16: person
+  17: bicycle
+  18: car
+  19: motorcycle
+  20: airplane
+  21: bus
+  22: train
+  23: truck
+  24: boat
+  25: traffic light
+  26: fire hydrant
+  27: stop sign
+  28: parking meter
+  29: bench
+  30: bird
+  31: cat
+  32: dog
+  33: horse
+  34: sheep
+  35: cow
+  36: elephant
+  37: bear
+  38: zebra
+  39: giraffe
+  40: backpack
+  41: umbrella
+  42: handbag
+  43: tie
+  44: suitcase
+  45: frisbee
+  46: skis
+  47: snowboard
+  48: sports ball
+  49: kite
+  50: baseball bat
+  51: baseball glove
+  52: skateboard
+  53: surfboard
+  54: tennis racket
+  55: bottle
+  56: wine glass
+  57: cup
+  58: fork
+  59: knife
+  60: spoon
+  61: bowl
+  62: banana
+  63: apple
+  64: sandwich
+  65: orange
+  66: broccoli
+  67: carrot
+  68: hot dog
+  69: pizza
+  70: donut
+  71: cake
+  72: chair
+  73: couch
+  74: potted plant
+  75: bed
+  76: dining table
+  77: toilet
+  78: tv
+  79: laptop
+  80: mouse
+  81: remote
+  82: keyboard
+  83: cell phone
+  84: microwave
+  85: oven
+  86: toaster
+  87: sink
+  88: refrigerator
+  89: book
+  90: clock
+  91: vase
+  92: scissors
+  93: teddy bear
+  94: hair drier
+  95: toothbrush
